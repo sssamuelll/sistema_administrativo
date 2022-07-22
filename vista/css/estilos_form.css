@@ -1,0 +1,102 @@
+/* CSS Document */
+table
+{
+	border:thin;
+	border-style:dashed;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+#encabezado
+{
+	background-color:#3366FF;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	border-bottom-style:ridge;
+	border-bottom-width:medium;
+}
+.boton-submit
+{
+	background-color:#FF0000;
+	border-style:hidden;
+}
+.boton-submit:hover
+{
+	border-style:inset;
+	color:#CCCCCC;
+}
+.boton-cancel
+{
+	background-color:#0000FF;
+	color: #FFFFFF;
+	border-style:hidden;
+}
+.boton-cancel:hover
+{
+	border-style:inset;
+	color:#000000;
+}
+.cabecera_tabla
+{
+	font-weight:bold;
+	background-color:#CFC;
+	text-align:center;
+	font-size:14px;
+}
+.tabla_grande
+{
+	width:90%;
+}
+.full_size
+{
+	width:100%;
+}
+.right
+{
+	text-align:right;
+}
+.cabecera_columna
+{
+	font-weight:bold;
+	font-style:italic;
+}
+.boton_agregar
+{
+	font-weight:bold;
+	background-color:#CFC;
+	text-align:center;
+	font-size:14px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+.editar
+{
+	background-color:#fffac6;
+}
+
+.confirmar
+{
+	background-color:#c7e5e1;
+}
+
+.mensaje_error
+{
+	background-color:#CC1818;
+	font-weight:bold;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	text-align:center;
+}
+
+.destacado
+{
+	font-size:18px;
+	font-weight:bold;
+	font-family:"Arial";
+}
+
+.mensaje_ok
+{
+	background-color:#259B07;
+	height:50px;
+	line-height:50px;
+	text-align:center;
+}

@@ -1,0 +1,122 @@
+@charset "utf-8";
+/* CSS Document */
+
+*
+{
+	margin:0px;
+}
+
+.contenedor
+{
+	width:1000px;
+	border-left:#CCC 3px solid;
+	border-right:#CCC 3px solid;
+	margin:0 auto;
+	background-color:#FFF;
+}
+.izquierda
+{	position:absolute;
+}
+#cabecera
+{
+	background-color:#66C;
+	height:128px;
+	border-bottom:solid;
+	border-bottom-color:#FFF;
+	line-height:80px;
+}
+#titulo
+{
+	margin-left:430px;
+	position:relative;
+	padding-top:20px;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size:14px;
+	}
+#menu
+{
+	background-color:#999;
+	height:250px;
+	width:15%;
+	float:left;
+}
+#centro
+{
+	background-color:#CDEDFE;
+	height:570px;
+	width:85%;
+	float:left;
+}
+#pie
+{
+	background-color:#66C;
+	height:80px;
+	clear:both;
+	/* posicionamiento normal a partir de este elemento para las cajas */
+	text-align:center;
+	line-height:40px;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+}
+.boton
+{
+	background-color:#F9f9F9;
+	border-bottom:solid;
+	border-bottom-color:#999;
+	font-family:"Arial";
+	text-align:center;
+	line-height:25px;
+}
+.boton-primario
+{
+	background-color:#337AB7;
+	height:25px;
+	text-align:center;
+	line-height:25px;
+	font-family:"Arial Black";
+	color:#FFF;
+}
+.boton:hover
+{
+	background-color:#337AB7;
+	font-style:italic;
+}
+.boton-primario:hover
+{
+	background-color:#337AB7;
+	font-style:normal;
+}
+a
+{
+	text-decoration:none;
+}
+
+.mensaje_ok
+{
+	background-color:#259B07;
+	height:50px;
+	line-height:50px;
+	text-align:center;
+}
+
+.mensaje_error
+{
+	background-color:#CC1818;
+	height:50px;
+	line-height:50px;
+	text-align:center;
+}
+
+.destacado
+{
+	font-size:18px;
+	font-weight:bold;
+	font-family:"Arial";
+}
+
+.notable
+{
+	font-size:12px;
+	font-weight:bold;
+	font-style: italic;
+	font-family:"Arial";
+}

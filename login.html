@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="icon" type="image/png" href="vista/images/tools.ico">
+		<title>Ingreso al sistema</title>
+		<link href="vista/css/estilos_form.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="vista/js/validaciones.js"></script>	
+	</head>
+
+	<body onload="document.getElementById('usuario').focus();">
+		<div id="encabezado" align='center'>Verificación de Usuarios</div>
+		<br>
+		<form name='form_ingreso' id='form_ingreso'>
+			<input type="hidden" name="accion" id="accion" value="chequear_usuario">
+			<table align="center">
+				<tr>
+					<td colspan="2" class="cabecera_tabla">Por favor, ingrese sus datos</td>
+				</tr>
+				<tr>
+					<td align="right">Usuario:</td>
+					<td><input type='text' name='usuario' id='usuario' placeholder="Escriba su usuario" maxlength="50" size="50" onblur="return novacio(this)"></td>
+				</tr>
+				<tr>
+					<td>Contraseña:</td>
+					<td><input type='password' name='clave' id='clave' placeholder="Escriba su contraseña" maxlength="50" size="50" onblur="return novacio(this)"></td>
+				</tr>
+				<tr>
+					<td colspan="2" align="center">
+						<p>
+						<input type='button' class="boton-submit" name='enviar' value='Enviar' onclick="validarUsuario();">
+						<input type='reset' class= "boton-cancel" name='limpiar' value='Limpiar'>
+					</td>
+				</tr>
+			</table>
+		</form>
+		<div id="mensaje_ok" class="mensaje_ok" style="display: none;"></div> <!-- Para mostrar el mensaje si el usuario existe -->
+		<div id="mensaje_error" class="mensaje_error" style="display: none;"></div> <!-- Para mostrar el mensaje si el usuario es incorrecto -->
+	</body>
+</html>
