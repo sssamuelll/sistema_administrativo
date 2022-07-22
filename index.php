@@ -27,12 +27,12 @@
 			<div id="titulo"><h1>Sistema de Control de Existencias</h1></div>
 		</div>
 		<div id="menu">
-			<div class="boton boton-primario">Clientes</div>
-			<div class="boton"><a href="vista/clientes/agregar_cliente.php" target="enlace">Agregar Clientes</a></div>
-			<div class="boton"><a href="vista/clientes/listar_clientes.php" target="enlace">Listar Clientes</a></div>
-			<div class="boton boton-primario">Artículos</div>
-			<div class="boton"><a href="vista/articulos/agregar_articulo.php" target="enlace">Agregar Artículos</a></div>
-			<div class="boton"><a href="vista/articulos/listar_articulos.php" target="enlace">Listar Artículos</a></div>            
+			<div class="boton boton-primario">Estudiantes</div>
+			<div class="boton"><a href="vista/estudiantes/agregar_estudiante.php" target="enlace">Agregar Estudiante</a></div>
+			<div class="boton"><a href="vista/estudiantes/listar_estudiantes.php" target="enlace">Listar Estudiantes</a></div>
+			<div class="boton boton-primario">Cursos</div>
+			<div class="boton"><a href="vista/cursos/agregar_curso.php" target="enlace">Agregar Curso</a></div>
+			<div class="boton"><a href="vista/cursos/listar_curso.php" target="enlace">Listar Cursos</a></div>            
 			<div class="boton boton-primario">Ord. de Compra</div>
 			<div class="boton"><a href="vista/ordenes/agregar_orden.php" target="enlace">Agregar Ordenes</a></div>
 			<div class="boton"><a href="vista/ordenes/listar_ordenes.php" target="enlace">Listar Ordenes</a></div>
